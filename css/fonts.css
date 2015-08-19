@@ -1,0 +1,39 @@
+/* ---------------------------------------------------------------------------------------------- *
+ * font definitions                                                                               *
+ * ---------------------------------------------------------------------------------------------- */
+
+@font-face
+{
+    font-family: 'Geogrotesque-Light';
+    src: url('../fonts/2811A4_0_0.eot');
+    src: url('../fonts/2811A4_0_0.woff') format('woff'),
+    url('../fonts/2811A4_0_0.ttf') format('truetype'),
+    url('../fonts/2811A4_0_0.svg') format('svg');
+}
+@font-face
+{
+    font-family: 'Geogrotesque-Medium';
+    src: url('../fonts/2811A4_1_0.eot');
+    src: url('../fonts/2811A4_1_0.woff') format('woff'),
+    url('../fonts/2811A4_1_0.ttf') format('truetype'),
+    url('../fonts/2811A4_1_0.svg') format('svg');
+}
+
+@font-face
+{
+    font-family: 'Mr-Alex';
+    src: url('../fonts/280641_1_0.eot');
+    src: url('../fonts/280641_1_0.woff') format('woff'),
+    url('../fonts/280641_1_0.ttf') format('truetype'),
+    url('../fonts/280641_1_0.svg') format('svg');
+}
+
+
+@font-face
+{
+    font-family: 'Mr-Alex-Light';
+    src: url('../fonts/280641_0_0.eot');
+    src: url('../fonts/280641_0_0.woff') format('woff'),
+    url('../fonts/280641_0_0.ttf') format('truetype'),
+    url('../fonts/280641_0_0.svg') format('svg');
+}
