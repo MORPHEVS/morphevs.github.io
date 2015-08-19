@@ -335,7 +335,7 @@ a:focus {
     outline: none
 }
 #accordion .ui-accordion-header a {
-    color: #fff;
+    color: transparent;
     line-height: 42px;
     display: block;
     font-size: 12pt;
