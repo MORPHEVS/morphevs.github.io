@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 2vw;
     text-transform: uppercase;
     font-family: "Geogrotesque-Medium" ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -269,7 +269,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 2vw;
+    padding-top: 3vw;
 }
 
 .bg-section {
@@ -286,7 +286,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 5vw;
     }
 
     .bg-section {
@@ -318,43 +318,12 @@ a:focus {
     background-color: #42dca3;
 }
 
+.viewpoints{
+    font-size: 20px !important;
+}
 
-
-#accordion * { 
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-    box-sizing: border-box;
-}
-#accordion {
-    width: 60vw;
-    margin: 30px auto;
-}
-#accordion .ui-accordion-header {
-    background-color: transparent;
-    margin: 10px;
-    outline: none
-}
-#accordion .ui-accordion-header a {
-    color: transparent;
-    line-height: 42px;
-    display: block;
-    font-size: 12pt;
-    width: 100%;
-    text-indent: 0px;
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
-    border-right: 1px solid rgba(0, 0, 0, .2);
-    border-left: 1px solid rgba(0, 0, 0, .2);
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-    border-top: 1px solid rgba(250, 250, 250, .2);
-}
-#accordion .ui-accordion-content {
-    width: 100%;
-    padding: 2vw;
-    background-color: transparent;
-    color: #f3f3f3;
-    font-size: 14pt;
-    box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, .2),
-                inset 0px -1px 0px 0px rgba(0, 0, 0, .4);
+.hide {
+  display: none;
 }
 
 footer {
