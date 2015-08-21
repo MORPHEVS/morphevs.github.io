@@ -167,11 +167,11 @@ a:focus {
     -moz-background-size: 40vw 40vw;
     background-size: 40vw 40vw;
     -o-background-size: 40vw 40vw;*/
-    /*Cover background*/
-    -webkit-background-size: 100% 61.8%;
-    -moz-background-size: 100% 61.8%;
-    background-size: 100% 61.8%;
-    -o-background-size: 100% 61.8%;
+    /*Cover background*/    
+    -webkit-background-size: 100% 38.2%;
+    -moz-background-size: 100% 38.2%;
+    background-size: 100% 38.2%;
+    -o-background-size: 100% 38.2%;
 }
 
 .intro .intro-body {
@@ -207,11 +207,10 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
-
-        -webkit-background-size: 100% 38.2%;
-        -moz-background-size: 100% 38.2%;
-        background-size: 100% 38.2%;
-        -o-background-size: 100% 38.2%;
+        -webkit-background-size: 100% 61.8%;
+        -moz-background-size: 100% 61.8%;
+        background-size: 100% 61.8%;
+        -o-background-size: 100% 61.8%;
     }
 
     .intro .intro-body .brand-heading {
