@@ -168,10 +168,10 @@ a:focus {
     background-size: 40vw 40vw;
     -o-background-size: 40vw 40vw;*/
     /*Cover background*/    
-    -webkit-background-size: 100% 38.2%;
-    -moz-background-size: 100% 38.2%;
-    background-size: 100% 38.2%;
-    -o-background-size: 100% 38.2%;
+    -webkit-background-size: 100% 50%;
+    -moz-background-size: 100% 50%;
+    background-size: 100% 50%;
+    -o-background-size: 100% 50%;
 }
 
 .intro .intro-body {
