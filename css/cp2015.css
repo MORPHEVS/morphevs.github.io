@@ -207,6 +207,11 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
+
+        -webkit-background-size: 100% 38.2%;
+        -moz-background-size: 100% 38.2%;
+        background-size: 100% 38.2%;
+        -o-background-size: 100% 38.2%;
     }
 
     .intro .intro-body .brand-heading {
