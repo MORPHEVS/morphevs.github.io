@@ -155,7 +155,7 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 30px 0;
     text-align: center;
     color: #fff;
@@ -179,7 +179,7 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
+.intro .intro-body .brand-heading .intro-text{
     padding-top: 30vw;
 }
 
@@ -187,6 +187,10 @@ a:focus {
     font-size: 18px;
     color: #000;
 }
+
+/*.bgtmp{
+    background-color:#000; 
+}*/
 
 .intro-header{
     font-size: 50px;
@@ -214,6 +218,7 @@ a:focus {
     }
     .intro-text{
         font-size:18px;
+        margin-top: 3vw;
     }
     .intro-logo {
         margin-top: 0
