@@ -17,6 +17,7 @@ h3,
 h4,
 h5,
 h6 {
+    color: #1a5f48;
     margin: 2vw;
     text-transform: uppercase;
     font-family: "Geogrotesque-Medium" ,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -28,11 +29,6 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
-}
-
-img {
-    z-index: -1;
-    margin: 3vw;
 }
 
 @media(min-width:768px) {
@@ -53,6 +49,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
+    color: #42dca3;
 }
 
 .light {
@@ -61,7 +58,7 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    width: 100vw;
+    width: 100%;
     height:auto;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
@@ -76,6 +73,10 @@ a:focus {
 
 .navbar-img {
     margin: auto 0 auto 0;
+}
+
+.navbar-toggle{
+    float: left;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -93,8 +94,7 @@ a:focus {
 
 .navbar-custom a {
     color: #1a5f48;
-    /*color: #FFF;*/
-    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
 }
 
 .navbar-custom .nav li a {
@@ -121,7 +121,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: transparent;
     -moz-border-radius: 6px;
     border-radius: 6px; /* standards-compliant: (IE) */
 }
@@ -153,79 +153,87 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: 100%;
+    height: 61.8vh;
     padding: 30px 0;
-    text-align: center;
+    text-align: center !important;
     color: #fff;
-    /*background: url(../img/CPLarge2015.jpg) no-repeat left 13vw scroll;*/       
-    background: url(../img/bg_tmp.jpg) no-repeat top center scroll;
+    background: url(../img/bg_tmp_copy.jpg) no-repeat top center scroll;
     background-color: #fff;
-    /*CPLarge background:*/
-    /*-webkit-background-size: 40vw 40vw;
-    -moz-background-size: 40vw 40vw;
-    background-size: 40vw 40vw;
-    -o-background-size: 40vw 40vw;*/
-    /*Cover background*/    
     -webkit-background-size: 100% 50%;
     -moz-background-size: 100% 50%;
-    background-size: 100% 50%;
+    background-size: auto 50%;
     -o-background-size: 100% 50%;
 }
 
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.intro .intro-body .brand-heading .intro-text{
-    padding-top: 30vw;
-}
-
 .intro .intro-body .intro-text {
-    font-size: 18px;
     color: #000;
 }
 
-/*.bgtmp{
-    background-color:#000; 
-}*/
-
 .intro-header{
-    font-size: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center !important;
+    height: 61.8vh;
     text-shadow: 2px 0px  3px black;
+    font-size: 38px;
+}
+
+.intro-text{
+    /*margin-top: 30vh;*/
+    display: table-cell;
+    vertical-align: middle;
+    height: 38.2vh;
 }
 
 .intro-logo {
-    margin-top: 10vw;
-    width: 40%; 
-    height: 40%;
+    max-width: 20vw; 
+    max-height: 20vw;
+    margin-top: 1vw;
+    vertical-align: middle;
+}
+
+.intro-bg-container{
+    display: table!important;
+    vertical-align: middle;
+}
+
+@media(max-width:768px){
+    .intro-bg-container{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media(min-width:768px) {
     .intro {
-        height: 100%;
+        height: 61.8vh;
         padding: 0;
         -webkit-background-size: 100% 61.8%;
         -moz-background-size: 100% 61.8%;
-        background-size: 100% 61.8%;
+        background-size: auto 61.8%;
         -o-background-size: 100% 61.8%;
     }
-
     .intro .intro-body .brand-heading {
         font-size: 100px;
     }
-
     .intro .intro-body .intro-header {
         font-size:50px;
     }
     .intro-text{
-        font-size:18px;
-        margin-top: 3vw;
+        font-size:20px;
     }
     .intro-logo {
-        margin-top: 3vw
+        max-width: 15vw; 
+        max-height: 15vw;
+    }
+    .intro-bg-container{
+        margin-right: 50%;
+        /*margin-left: 50%;*/
+        /*margin-right: auto;
+        margin-left: auto;*/
     }
 }
+
 
 .btn-circle {
     width: 70px;
@@ -301,13 +309,9 @@ a:focus {
     }
 }
 
-.content-section {
-    padding-top: 3vw;
-}
-
 .bg-section {
     width: 100%;
-    padding: 50px 0;
+    /*padding: 50px 0;*/
     color: #fff;
     background: url(../img/bg_tmp2.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -318,12 +322,12 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 5vw;
-    }
+    /*.content-section {
+        padding-top: 4vw;
+    }*/
 
     .bg-section {
-        padding: 50px 0;
+        padding: 4vw 0;
     }
 }
 
@@ -352,15 +356,15 @@ a:focus {
 }
 
 .viewpoints{
-    font-size: 20px !important;
+    font-size: 20px;
 }
 
-.hide {
-  display: none;
+.bold{
+    font-weight: 900;
 }
 
 footer {
-    padding: 50px 0;
+    padding: 4vh 0;
 }
 
 footer p {
