@@ -1,6 +1,6 @@
 /*colors: 
 greysish green: #A8B660
-dark green: #1a5f48 o. #051600 o. #245302
+dark green: #245302 o. #1a5f48 o. #051600 o. #245302
 light green: #A3BA60
 */
 
@@ -113,7 +113,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(175,175,175,.3);
 }
 
 .navbar-custom .nav li a:focus,
@@ -133,7 +133,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(175,175,175,.3);
     -moz-border-radius: 6px;
     border-radius: 6px; /* standards-compliant: (IE) */
 }
@@ -317,7 +317,6 @@ a:focus {
 
 .bg-section {
     width: 100%;
-    /*padding: 50px 0;*/
     color: #fff;
     background: #245302; /*#005900*/;/*url(../img/bg_tmp2.jpg) no-repeat center center scroll;*/
     
@@ -328,9 +327,6 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    /*.content-section {
-        padding-top: 4vw;
-    }*/
 
     .bg-section {
         padding: 4vw 0;
