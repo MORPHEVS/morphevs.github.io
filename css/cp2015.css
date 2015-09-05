@@ -1,6 +1,6 @@
 /*colors: 
 greysish green: #A8B660
-dark green: #1a5f48 o. #051600
+dark green: #1a5f48 o. #051600 o. #245302
 light green: #A3BA60
 */
 
@@ -319,7 +319,7 @@ a:focus {
     width: 100%;
     /*padding: 50px 0;*/
     color: #fff;
-    background: #005900;/*url(../img/bg_tmp2.jpg) no-repeat center center scroll;*/
+    background: #245302; /*#005900*/;/*url(../img/bg_tmp2.jpg) no-repeat center center scroll;*/
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
